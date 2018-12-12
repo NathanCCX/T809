@@ -61,10 +61,6 @@ public class EditNewbornTest extends iTrustSeleniumTest {
 		form.submit();
 
 		wd.findElement(By.linkText("View Childbirth Office Visit")).click();
-
-		// Select a patient and go to the add childbirth visits records 
-		//wd.findElement(By.name("UID_PATIENTID")).sendKeys("1");
-		//wd.findElement(By.id("mainForm")).submit();
 		
 		assertEquals("iTrust - View Childbirth Office Visits", wd.getTitle());
 		

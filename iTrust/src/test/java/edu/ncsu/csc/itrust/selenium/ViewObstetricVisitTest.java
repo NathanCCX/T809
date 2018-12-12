@@ -9,10 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class ViewObstetricVisitTest extends iTrustSeleniumTest {
-
-//	public ViewObstetricVisitTest() {
-//		// TODO Auto-generated constructor stub
-//	}
 	
 	@Override
 	protected void setUp() throws Exception {

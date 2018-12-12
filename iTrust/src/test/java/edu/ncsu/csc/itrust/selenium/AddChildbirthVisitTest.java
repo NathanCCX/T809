@@ -86,7 +86,5 @@ public class AddChildbirthVisitTest extends iTrustSeleniumTest {
 		// Get the date of today
 		DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
 		Date date = new Date();
-		
-		//assertTrue(row.getText().contains(dateFormat.format(date)));
 	}
 }
